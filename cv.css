@@ -1,0 +1,58 @@
+body {
+  background-color: #141414;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #e50914; /* Netflix red */
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+.section {
+  background-color: #181818; /* Slightly lighter background for contrast */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+.section:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow on hover */
+}
+
+.section h2 {
+  color: #e50914; /* Netflix red for section headers */
+  border-bottom: 2px solid #e50914; /* Underline effect */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+}
+
+
+  
